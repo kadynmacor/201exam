@@ -1,0 +1,40 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color: cadetblue;
+    background-color: antiquewhite;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: cadetblue;
+}
+.common{
+    font-family: 'Courier New', Courier, monospace;
+    color: cadetblue;
+    position: absolute;
+}
+.top{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.middle{
+    top: 50px;
+    left: 0px;
+    right: 0px;
+}
+.bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    text-align: center;
+    background-color: beige;
+    font-style: italic;
+    font-weight: bold;
+}
+.imgcenter{
+    display: block;
+    margin: auto;
+    border: 3px solid gray;
+}
